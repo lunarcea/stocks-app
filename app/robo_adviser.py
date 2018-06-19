@@ -6,6 +6,8 @@ import pdb
 import requests
 import datetime
 
+# Reference: 	https://github.com/LillianRui/stock-app
+
 def parse_response(response_text):
     # response_text can be either a raw JSON string or an already-converted dictionary
     if isinstance(response_text, str): # if not yet converted, then:
